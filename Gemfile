@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 ruby '2.3.1'
 
-gem 'rails', '~> 4.2.7'
+gem 'rails', '~> 4.2.7', '>= 4.2.7.1'
 
 gem 'arel'
 gem 'devise'
 gem 'geokit'
 gem 'haml'
 gem 'http_accept_language'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.10.5'
 gem 'pg'
 gem 'rails_12factor'
 gem 'rails_admin'
@@ -19,7 +19,7 @@ platforms :ruby_18 do
 end
 
 group :assets do
-  gem 'sass-rails', '>= 4.0.3'
+  gem 'sass-rails', '>= 5.0.6'
   gem 'uglifier'
 end
 
