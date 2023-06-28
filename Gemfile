@@ -1,17 +1,17 @@
 source 'https://rubygems.org'
 ruby '2.3.1'
 
-gem 'rails', '~> 4.2.7'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.4'
 
 gem 'arel'
-gem 'devise'
+gem 'devise', '>= 4.7.0'
 gem 'geokit'
 gem 'haml'
 gem 'http_accept_language'
 gem 'nokogiri'
 gem 'pg'
 gem 'rails_12factor'
-gem 'rails_admin'
+gem 'rails_admin', '>= 2.0.0'
 gem 'validates_formatting_of'
 
 platforms :ruby_18 do
@@ -19,7 +19,7 @@ platforms :ruby_18 do
 end
 
 group :assets do
-  gem 'sass-rails', '>= 4.0.3'
+  gem 'sass-rails', '>= 5.0.8'
   gem 'uglifier'
 end
 
