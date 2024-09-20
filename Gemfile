@@ -28,7 +28,7 @@ group :development do
 end
 
 group :production do
-  gem 'puma'
+  gem 'puma', '>= 5.6.9'
   gem 'skylight'
 end
 
